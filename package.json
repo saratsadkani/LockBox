@@ -1,0 +1,23 @@
+{
+  "name": "lockbox-server",
+  "version": "0.1.0",
+  "description": "Node.js + Express backend for a password vault (skeleton)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
